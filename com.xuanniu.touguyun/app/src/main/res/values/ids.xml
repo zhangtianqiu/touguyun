@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item type="id" name="touguyun_titleBar"/>
+    <item type="id" name="touguyun_main_top_tools"/>
+    <item type="id" name="touguyun_viewpaper"/>
+    <item type="id" name="refresh_list"/>
+    <item type="id" name="activity_guide_image"/>
+
+    <item type="id" name="item_add"/>
+    <item type="id" name="item_view"/>
+    <item type="id" name="item_cancel"/>
+    <item type="id" name="item_type"/>
+    <item type="id" name="item_center"/>
+    <item type="id" name="item_name"/>
+    <item type="id" name="item_profit"/>    <!--收益-->
+    <item type="id" name="item_profit_title"/>    <!--收益标题-->
+    <item type="id" name="item_time"/>
+    <item type="id" name="item_line"/>
+    <item type="id" name="item_layout"/>
+    <item type="id" name="item_context"/>
+    <item type="id" name="item_title"/>
+    <item type="id" name="item_icon"/>
+    <item type="id" name="item_code"/>
+    <item type="id" name="item_new_point"/>
+    <item type="id" name="item_next"/>
+    <item type="id" name="item_value"/>
+    <item type="id" name="item_header"/>
+    <item type="id" name="item_tag"/>
+    <item type="id" name="item_button"/>
+    <item type="id" name="item_share"/>
+    <item type="id" name="item_count"/>
+    <item type="id" name="item_comment"/>
+    <item type="id" name="item_praise"/>
+    <item type="id" name="item_fans"/>
+    <item type="id" name="item_turn_volume"/>
+    <item type="id" name="item_yield"/>     <!--收益率-->
+    <item type="id" name="item_buy_price_title"/>     <!--买入价格-->
+    <item type="id" name="item_buy_price"/>     <!--买入价格-->
+    <item type="id" name="item_buy_amount_title"/>    <!--买入额-->
+    <item type="id" name="item_buy_amount"/>    <!--买入额-->
+    <item type="id" name="item_buy_count_title"/>     <!--买入股数-->
+    <item type="id" name="item_buy_count"/>     <!--买入股数-->
+    <item type="id" name="item_position_title"/>     <!--仓位-->
+    <item type="id" name="item_position"/>     <!--仓位-->
+
+    <item type="id" name="view_item_left"/>
+    <item type="id" name="view_item_center"/>
+    <item type="id" name="view_item_right"/>
+
+    <item type="id" name="album_bucket_image"/>
+    <item type="id" name="album_bucket_name"/>
+    <item type="id" name="album_bucket_count"/>
+    <item type="id" name="album_bucket_isselected"/>
+
+    <item type="id" name="head_cancel"/>
+    <item type="id" name="head_title"/>
+    <item type="id" name="head_save"/>
+
+    <item type="id" name="error_network"/>
+    <item type="id" name="error_services"/>
+
+
+</resources>

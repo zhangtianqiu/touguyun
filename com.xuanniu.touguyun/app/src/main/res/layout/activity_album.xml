@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 相册 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_horizontal"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+    <com.touguyun.view.TitleBar_
+        android:id="@id/touguyun_titleBar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        app:bartitle="@string/album_title"
+        app:textColor="@color/black_323232"
+        app:leftIcon="@drawable/back_icon_black"
+        />
+
+    <GridView
+        android:id="@+id/album_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:horizontalSpacing="15dp"
+        android:numColumns="2"
+        android:scrollbars="none"
+        android:verticalSpacing="15dp" >
+    </GridView>
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TextView
+        android:id="@id/item_title"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:text="计算机 0.00%"
+        android:textSize="@dimen/sp_16"
+        android:textColor="@color/white"
+        android:paddingLeft="23dp"
+        android:gravity="left|center"
+        android:background="@color/black_5E5E5E"
+        />
+    <LinearLayout
+        android:id="@id/item_context"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <com.touguyun.view.GupiaoZuheItemView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        </LinearLayout>
+</LinearLayout>

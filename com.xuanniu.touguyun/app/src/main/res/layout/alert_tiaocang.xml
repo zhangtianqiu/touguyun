@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.touguyun.view.FilletLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:minHeight="150dp"
+    android:minWidth="250dp"
+    android:orientation="vertical"
+    app:defaultColor="@android:color/white"
+    app:fillet="5dp">
+
+
+    <LinearLayout
+        android:id="@+id/alert_tiaocang_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@null"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <TextView
+            android:id="@+id/alert_tiaocang_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top|center_horizontal"
+            android:textColor="@color/black_323232"
+            android:textSize="@dimen/sp_19"
+            android:text="卖出确认"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="19dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/gray_989898"
+                android:textSize="@dimen/sp_16"
+                android:text="名称"
+                />
+            <TextView
+                android:id="@+id/alert_tiaocang_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black_323232"
+                android:textSize="@dimen/sp_16"
+                android:layout_marginLeft="40dp"
+                android:text="中国钢铁"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="60dp"
+                android:textColor="@color/gray_989898"
+                android:textSize="@dimen/sp_16"
+                android:text="代码"
+                />
+            <TextView
+                android:id="@+id/alert_tiaocang_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/black_323232"
+                android:textSize="@dimen/sp_16"
+                android:text="600100"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/gray_989898"
+                android:textSize="@dimen/sp_16"
+                android:text="价格"
+                />
+            <TextView
+                android:id="@+id/alert_tiaocang_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/black_323232"
+                android:textSize="@dimen/sp_16"
+                android:layout_marginLeft="40dp"
+                android:text="12.33"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="60dp"
+                android:textColor="@color/gray_989898"
+                android:textSize="@dimen/sp_16"
+                android:text="数量"
+                />
+            <TextView
+                android:id="@+id/alert_tiaocang_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/black_323232"
+                android:textSize="@dimen/sp_16"
+                android:text="10000"
+                />
+
+            </RelativeLayout>
+        <TextView
+            android:id="@+id/alert_tiaocang_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="提示：成交价格以实时价格为准。"
+            android:textColor="@color/red_E91840"
+            android:textSize="@dimen/sp_13" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#989898" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_weight="0"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/alert_tiaocang_bt_left"
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:singleLine="true"
+            android:textColor="#383838"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/alert_tiaocang_bt_line"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#989898" />
+
+        <Button
+            android:id="@+id/alert_tiaocang_bt_right"
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:singleLine="true"
+            android:textColor="#383838"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</com.touguyun.view.FilletLinearLayout >

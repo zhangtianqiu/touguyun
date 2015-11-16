@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+
+        <com.touguyun.view.CircleAngleTitleView
+            android:id="@id/item_layout"
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            app:backColor="@color/white"
+            app:frameColor="@color/white"
+            />
+        <com.touguyun.view.CircleAngleTitleView
+            android:id="@id/item_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="78dp"
+            android:gravity="center"
+            android:textSize="@dimen/sp_16"
+            android:textColor="@color/white"
+            android:layout_alignLeft="@id/item_layout"
+            android:layout_alignTop="@id/item_layout"
+            android:layout_alignBottom="@id/item_layout"
+            app:backColor="@color/white"
+            app:frameColor="@color/white"
+            />
+        <TextView
+            android:id="@id/item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_toRightOf="@id/item_icon"
+            android:layout_alignTop="@id/item_layout"
+            android:layout_marginLeft="16dp"
+            android:gravity="center"
+            android:textSize="@dimen/sp_13"
+            android:textColor="@color/black_404040"
+            android:text="家电"
+            />
+</RelativeLayout>

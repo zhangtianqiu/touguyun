@@ -1,0 +1,135 @@
+<resources>
+    <string name="app_name">投顾云</string>
+
+    <string name="assent">确定</string>
+    <string name="save">保存</string>
+    <string name="cancel">取消</string>
+    <string name="release">发布</string>
+    <string name="finish">完成</string>
+    <string name="filter">筛选</string>
+    <string name="jump">跳过</string>
+    <string name="next_step">下一步</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="waiting">静候片刻，加载中...</string>
+    <string name="point_no_card">检查到没有存储卡,请插入手机存储卡再执行操作</string>
+    <string name="point_card_error">检查到存储卡异常,请确认后再执行操作</string>
+
+    <!-- 相册 -->
+    <string name="get_photo_popu_camre">拍照</string>
+    <string name="get_photo_popu_select">相册</string>
+    <string name="album_title">相册</string>
+    <string name="album_max_select_count">最多选择9张图片</string>
+
+    <string name="register_title">用户注册</string>
+    <string name="register_tougu_title">投顾注册</string>
+    <string name="register_phone_hint">请输入手机号</string>
+    <string name="register_next">下一步</string>
+    <string name="register_next_message">点击下一步即表示同意</string>
+    <string name="register_agreement_link">投顾云注册协议</string>
+
+    <string name="register_code_title">验证码已发送至</string>
+    <string name="register_code_hint">请输入验证码</string>
+
+    <string name="register_pass_title">设置密码</string>
+
+    <string name="login_title">登录</string>
+    <string name="login_input_phonenum">请输入手机号</string>
+    <string name="login_input_password">请输入密码</string>
+    <string name="login_forgot_pass">忘记密码？</string>
+    <string name="login_user_register">用户注册</string>
+    <string name="login_tougu_register">投顾注册</string>
+
+    <string name="combination_profile_title">组合简介</string>
+    <string name="combination_profile_idea_title">投资理念</string>
+    <string name="combination_profile_stop_set_title">止损设置</string>
+
+    <string name="combination_info_title">组合详情</string>
+    <string name="combination_info_right_bt">简介</string>
+    <string name="combination_info_comment_bt">评 论</string>
+
+    <string name="comment_create_title">发评论</string>
+    <string name="comment_create_edit_hint">写评论...</string>
+
+    <string name="combination_filter_title">按类型筛选</string>
+    <string name="combination_filter_item1">按日收益（从高到低）</string>
+    <string name="combination_filter_item2">按周收益（从高到低）</string>
+    <string name="combination_filter_item3">按月收益（从高到低）</string>
+    <string name="combination_filter_item4">按净值（从高到低）</string>
+
+    <string name="history_net_value_title">历史净值</string>
+
+    <string name="trading_records_title">交易记录</string>
+    <string name="trading_records_buy_price">买入价格:</string>
+    <string name="trading_records_buy_amount">买入额:</string>
+    <string name="trading_records_buy_count">买入股数:</string>
+    <string name="trading_records_sell_price">卖出价格:</string>
+    <string name="trading_records_sell_amount">卖出额:</string>
+    <string name="trading_records_sell_count">卖出股数:</string>
+    <string name="trading_records_position">仓&#160;&#160;&#160;&#160;位:</string>
+
+    <string name="user_page_title">投顾主页</string>
+    <string name="user_page_info_title">简介</string>
+    <string name="user_page_tab_comb">组合</string>
+    <string name="user_page_tab_opinion">观点</string>
+
+    <!--首页-->
+    <string name="fragment_main_title">投顾云</string>
+
+    <string name="fragment_zuhe_title">组合</string>
+
+
+    <string name="fragment_tougu_title">投顾</string>
+
+    <string name="fragment_guandian_title">观点</string>
+
+    <string name="fragment_me_title">我的</string>
+
+    <!--设置-->
+    <string name="set_up_title">设置</string>
+    <string name="about_us_title">关于我们</string>
+    <string name="modify_name_title">名字</string>
+    <string name="feedback_title">意见反馈</string>
+    <string name="reset_password_title">重置密码</string>
+
+
+    <string name="my_guandian_title">我的观点</string>
+    <string name="my_tougu_title">我的投顾</string>
+    <string name="my_dingyue_title">我的订阅</string>
+    <string name="my_zuhe_title">我的组合</string>
+    <string name="message_title">消息</string>
+    <string name="zuhe_create_title">创建组合</string>
+    <string name="search_result_title">筛选结果</string>
+    <string name="search_title">搜索</string>
+    <string name="recommend_title">推荐投顾</string>
+    <string name="add_gupiao_title">添加股票</string>
+    <string name="guandian_info_title">观点详情</string>
+
+
+    <string name="user_agreement_title">用户协议</string>
+
+    <string name="share_portfolio_title">我发现了一个投资组合，快来一起赚钱吧！</string>
+    <string name="share_portfolio_context">我发现了一个投资组合，收益不错，快来一起赚钱吧！</string>
+    <string name="share_opinion_title">我发现了一个投资观点，快来一起赚钱吧！</string>
+    <string name="share_opinion_context">我发现了一个投资观点，收益不错，快来一起赚钱吧！</string>
+    <string name="share_consultant_title">我发现了一个牛投顾，快来一起赚钱吧！</string>
+    <string name="share_consultant_context">我发现了一个好投顾，收益不错，快来一起赚钱吧！</string>
+
+
+    OPINION
+
+    <!--极光推送 begin-->
+    <string name="tag_hint">Tag为大小写字母，数字，下划线,中文， 多个用以逗号分隔</string>
+    <string name="alias_hint">Alias为大小写字母，数字，下划线</string>
+    <string name="style_hint">style为数字</string>
+    <string name="error_style_empty">style不能为空</string>
+    <string name="error_alias_empty">alias不能为空</string>
+    <string name="error_tag_empty">tag不能为空</string>
+    <string name="error_tag_gs_empty">格式不对</string>
+    <string name="error_network">网络连接异常,初始化失败 请检查网络！</string>
+    <string name="logining">程序在后台执行, 请查看日志！</string>
+    <string name="setting_su">设置成功</string>
+    <!--极光推送 end-->
+</resources>

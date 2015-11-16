@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:paddingBottom="5dp"
+              android:background="@color/white"
+                >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:paddingLeft="23dp"
+        android:paddingRight="23dp"
+        android:background="@color/white_F7FAFD"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/sp_16"
+            android:textColor="@color/black_333333"
+            android:text="收益走势"
+            />
+        <TextView
+            android:id="@+id/view_comb_line_title_right"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical|right"
+            android:drawableRight="@drawable/next_page_blue"
+            android:drawablePadding="3dp"
+            android:textSize="@dimen/sp_16"
+            android:textColor="@color/blue_107CDB"
+            android:text="历史净值"
+            />
+
+        </RelativeLayout>
+    <com.touguyun.view.LineChartView
+        android:id="@+id/view_comb_line_chat"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginRight="23dp"
+        />
+
+
+</LinearLayout>

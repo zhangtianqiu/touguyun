@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+        <com.touguyun.view.TitleBar_
+            android:id="@id/touguyun_titleBar"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            app:leftIcon="@drawable/back_icon_black"
+            app:textColor="@color/black_232323"
+            />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+    <TextView
+        android:id="@+id/mess_cont_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/sp_17"
+        android:textColor="@color/black_323232"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginRight="23dp"
+        android:lineSpacingExtra="4dp"
+        android:text="里昂料上海石化可受惠于国企改革目标价受惠于国企改革目标价4 元"
+        />
+
+    <TextView
+        android:id="@+id/mess_cont_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="23dp"
+        android:layout_marginRight="23dp"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/gray_c8c8c8"
+        android:textSize="@dimen/sp_13"
+        android:text="财华社  2015-08-30 18:30"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.7dp"
+        android:background="@color/gray_D3D3D3"
+        android:layout_marginTop="6.3dp"
+        />
+    <TextView
+        android:id="@+id/mess_cont_context"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="23dp"
+        android:layout_marginRight="23dp"
+        android:layout_marginTop="13.3dp"
+        android:textColor="@color/black_323232"
+        android:textSize="14.7sp"
+        android:lineSpacingExtra="5dp"
+        android:text="相关股票：上海石化\n中信证券与2015年08月25日10:11分买入上海石化 1000股，买入价格为23.12元。中信证券与2015年08月25日10:11分买入上海石化1000股，买入价格为23.12元。中信证券与2015年08月25日10:11分买入上海石化 1000股，买入价格为23.12元。 中信证券与2015年08月25日10:11分买入上海石化 1000股，买入价格为23.12元"
+        />
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

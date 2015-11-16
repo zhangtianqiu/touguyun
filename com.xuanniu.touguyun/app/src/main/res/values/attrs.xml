@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FilletBtView">
+        <attr name="fillet" format="dimension" />
+        <attr name="defaultColor" format="color" />
+        <attr name="pressedColor" format="color" />
+    </declare-styleable>
+    <declare-styleable name="TitleBar">
+        <attr name="leftText" format="reference"/>
+        <attr name="leftIcon" format="reference"/>
+        <attr name="rightText" format="reference"/>
+        <attr name="rightIcon" format="reference"/>
+        <attr name="bartitle" format="reference"/>
+        <attr name="textColor" format="color"/>
+        <attr name="rightColor" format="color"/>
+        <attr name="showLine" format="boolean"/>
+    </declare-styleable>
+    <declare-styleable name="CircleAngleTitleView">
+        <attr name="radiusOfCorner" format="dimension" />
+        <attr name="frameWidth" format="dimension" />
+        <attr name="backColor" format="color" />
+        <attr name="frameColor" format="color" />
+    </declare-styleable>
+    <declare-styleable name="CircleImageView">
+        <attr name="CircleImageFrColor" format="color" />
+    </declare-styleable>
+    <declare-styleable name="PagerSlidingTabStrip">
+        <attr name="pstsIndicatorColor" format="color" />
+        <attr name="pstsUnderlineColor" format="color" />
+        <attr name="pstsDividerColor" format="color" />
+        <attr name="pstsIndicatorHeight" format="dimension" />
+        <attr name="pstsUnderlineHeight" format="dimension" />
+        <attr name="pstsDividerPadding" format="dimension" />
+        <attr name="pstsTabPaddingLeftRight" format="dimension" />
+        <attr name="pstsScrollOffset" format="dimension" />
+        <attr name="pstsTabBackground" format="reference" />
+        <attr name="pstsShouldExpand" format="boolean" />
+        <attr name="pstsTextAllCaps" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="FilletRelativeLayout">
+        <attr name="layoutFillet" format="dimension" />
+        <attr name="defaultBackColor" format="color" />
+    </declare-styleable>
+</resources>

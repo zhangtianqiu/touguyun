@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white"
+    >
+    <com.touguyun.view.TitleBar_
+        android:id="@id/touguyun_titleBar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        app:textColor="@color/black_232323"
+        app:leftIcon="@drawable/back_icon_black"
+        app:rightIcon="@drawable/clip_image_clockwise_icon"
+        />
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" >
+        <WebView
+            android:id="@+id/activity_webview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"/>
+
+        <LinearLayout
+            android:id="@+id/activity_webview_loading"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ProgressBar
+                android:id="@+id/activity_webview_progress"
+                style="?android:attr/progressBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:progress="0" />
+
+            <TextView
+                android:id="@+id/activity_webview_text_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="正在加载..."
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/sp_14"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/activity_webview_net_error"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:background="@color/white"
+            android:visibility="visible" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="获取内容失败，检查网络重试！"
+                android:textColor="@color/gray_989898"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

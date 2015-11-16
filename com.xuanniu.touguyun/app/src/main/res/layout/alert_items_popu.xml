@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/red_F65D5D" />
+
+
+    <ListView
+        android:id="@+id/alert_items_list"
+        android:layout_width="match_parent"
+        android:layout_height="245dp"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="#D8D8D8"
+        android:dividerHeight="1dp"
+        android:listSelector="@android:color/transparent"
+        android:paddingBottom="5dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="5dp"
+        android:scrollbars="none">
+
+    </ListView>
+
+
+</LinearLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <com.touguyun.view.TitleBar_
+        android:id="@id/touguyun_titleBar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        app:textColor="@color/black_232323"
+        app:bartitle="@string/reset_password_title"
+        app:leftIcon="@drawable/back_icon_black"
+        />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginRight="23dp"
+        >
+        <EditText
+            android:id="@+id/forgot_pass_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@android:color/transparent"
+            android:hint="请输入手机号码"
+            android:gravity="center"
+            android:textColor="@color/black_323232"
+            android:textColorHint="@color/gray_969696"
+            android:textSize="@dimen/sp_16"
+            android:inputType="phone"
+            android:maxLength="11"
+            />
+        <ImageView
+            android:id="@+id/forgot_pass_phone_clear"
+            android:layout_width="15dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/text_del_gray_icon"
+            android:visibility="gone"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="6dp"
+            android:background="@color/gray_969696"
+            />
+    </RelativeLayout>
+
+    <com.touguyun.view.CircleAngleTitleView
+        android:id="@+id/forgot_pass_phone_next"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginRight="23dp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_16"
+        android:text="@string/register_next"
+        app:backColor="@color/red_EB7D8C"
+        app:radiusOfCorner="3dp"
+        app:frameColor="@color/red_EB7D8C"
+        />
+
+</LinearLayout>

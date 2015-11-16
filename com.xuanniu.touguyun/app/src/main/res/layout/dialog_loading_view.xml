@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/touguyun_loading_bg">
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleSmallTitle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:indeterminateDrawable="@drawable/touguyun_progressbar"
+        android:visibility="visible" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="centerInside"
+        android:contentDescription="@null"
+        android:layout_centerInParent="true"
+        android:src="@drawable/loading_progress_icon"
+        android:background="@android:color/transparent"/>
+</RelativeLayout>
